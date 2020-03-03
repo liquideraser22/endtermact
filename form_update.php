@@ -35,7 +35,7 @@
       }
     ?>
 	</select>
-	<br/><br/><input class="w3-button w3-round-large w3-green" type="submit" name="submit" value="Confirm"/> <input class="w3-button w3-round-large w3-red" type="submit" name="submit" value="Cancel"/>	
+	<br/><br/><input class="w3-button w3-center w3-round-large w3-green" type="submit" name="submit" value="Confirm"/> <input class="w3-button w3-center w3-round-large w3-red" type="submit" name="submit" value="Cancel"/>	
 </form>
 </div>
 </html>

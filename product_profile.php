@@ -20,9 +20,9 @@
 		<p> <b>Price:  </b><?php echo $result['price']; ?></p>
 		<p>	<b>Category:  </b><?php echo $result['category_name'];?> </p>
 	</div>
-		<footer class="w3-container w3-dark-grey w3-padding-small w3-round-xlarge">
-			<a class="w3-button w3-round-large w3-right w3-teal w3-margin" href="form_update.php?id=<?php echo $id ?>">Update/Edit</a>
-			<a class="w3-button w3-round-large w3-right w3-red w3-margin" href="pro_delete.php?id=<?php echo $id ?>">Delete/Trash</a>
+		<footer class="w3-container w3-dark-grey w3-padding-small">
+			<a class="w3-button w3-round-large w3-right w3-teal w3-margin" href="form_update.php?id=<?php echo $id ?>">Edit</a>
+			<a class="w3-button w3-round-large w3-right w3-red w3-margin" href="pro_delete.php?id=<?php echo $id ?>">Delete</a>
 		</footer>
 	</div>
   </div>

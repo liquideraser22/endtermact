@@ -17,8 +17,6 @@
 ?>
 <html>
 <br/>
-<br/>
-<br/>
 <div class="w3-container w3-margin w3-round">
 	</br></br>
 	<form action="index.php?page=list" method="POST">

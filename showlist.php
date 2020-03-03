@@ -31,10 +31,10 @@
 	<hr/>
   <table class="w3-table-all w3-round w3-hoverable">
     <tr class="w3-dark-grey">
-      <th class="w3-center">Product Name</th>
-      <th class="w3-center">Price</th>
-      <th class="w3-center">Description</th>
-      <th class="w3-center">Category</th>
+      <th class="w3-center w3-animate-top">Product Name</th>
+      <th class="w3-center w3-animate-top">Price</th>
+      <th class="w3-center w3-animate-top">Description</th>
+      <th class="w3-center w3-animate-top">Category</th>
     </tr>
     <?php
       foreach($list as $result){

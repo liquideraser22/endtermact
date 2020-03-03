@@ -19,9 +19,9 @@
 <br/>
 <br/>
 <br/>
-<div class="w3-container w3-margin">
-<label>Create Product</label>
-<form class="w3-container" w3-teal action="pro_update.php?id=<?php echo $id ?>" method="POST">
+<div class="w3-container">
+<form action="pro_update.php?id=<?php echo $id ?>" method="POST">
+	<form class="w3-container w3-green"
 	Name:<br/><input class="w3-input w3-border w3-round-large" type="text" name="name" value="<?php echo $result['name'];?>"/><br/><br/>
 	Description:<br/><textarea class="w3-input w3-border w3-round-large" name="description"><?php echo $result['description']; ?></textarea><br/><br/>
 	Price:<br/><input class="w3-input w3-border w3-round-large" type="number" name="price" value="<?php echo $result['price']; ?>"/><br/><br/>
@@ -35,10 +35,7 @@
       }
     ?>
 	</select>
-	<br/><br/><input class="w3-button w3-round-large w3-green" type="submit" name="submit" value="Done"/> <input class="w3-button w3-round-large w3-red" type="submit" name="submit" value="Cancel"/>
-	
-	
-	
+	<br/><br/><input class="w3-button w3-round-large w3-green" type="submit" name="submit" value="Done"/> <input class="w3-button w3-round-large w3-red" type="submit" name="submit" value="Cancel"/>	
 </form>
 </div>
 </html>

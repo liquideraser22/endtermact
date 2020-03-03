@@ -1,4 +1,5 @@
 <?php
+	$load = (isset($_GET['page'])&& $_GET['page'] !='')? $_GET['page'] : '';
 	$id = $_GET['id'];
 	$json = file_get_contents('http://rdapi.herokuapp.com/product/read_one.php?id='.$id);
 	$data = json_decode($json,true);
@@ -19,6 +20,7 @@
 <br/>
 <br/>
 <div class="w3-container w3-margin">
+<label>Create Product</label>
 <form class="w3-container" w3-teal action="pro_update.php?id=<?php echo $id ?>" method="POST">
 	Name:<br/><input class="w3-input w3-border w3-round-large" type="text" name="name" value="<?php echo $result['name'];?>"/><br/><br/>
 	Description:<br/><textarea class="w3-input w3-border w3-round-large" name="description"><?php echo $result['description']; ?></textarea><br/><br/>

@@ -23,9 +23,9 @@
 <div class="w3-container w3-margin w3-round">
 	</br></br>
 	<form action="index.php?page=list" method="POST">
-	<div class="w3-container w3-middle">
+	<div class="w3-container">
 	Search:<input class="text" name="search" placeholder="Product Name">
-		<button class="w3-button w3-blue-grey" type="submit" name="submit"><i class='fas fa-paper-plane'></i></button>
+		<button class="w3-button w3-yellow w3-animate-zoom" type="submit" name="submit"><i class='fas fa-paper-plane'></i></button>
 		</div>	
 	</form>
 	<hr/>

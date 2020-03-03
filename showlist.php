@@ -28,7 +28,7 @@
 	<hr/>
   <table class="w3-table-all w3-round w3-hoverable">
     <tr class="w3-dark-grey">
-      <th>Name</th>
+      <th>Product Name</th>
       <th>Price</th>
       <th>Description</th>
       <th>Category</th>

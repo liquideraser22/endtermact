@@ -19,7 +19,7 @@
 <br/>
 <br/>
 <br/>
-<div class="w3-container w3-margin w3-round">
+<div class="w3-display-container w3-display-topmiddle w3-margin w3-round">
 	<form action="index.php?page=list" method="POST">
 	Search:<input type="text" name="search" placeholder="Search Product Name">
 		<input type="submit" name="submit"><i class="fa fa-search"> </i>

@@ -1,5 +1,5 @@
 <?php
-	//category
+	$load = (isset($_GET['page'])&& $_GET['page'] !='')? $_GET['page'] : '';
 	$jsonCat = file_get_contents('http://rdapi.herokuapp.com/category/read.php');
 	$catData = json_decode($jsonCat,true);
 	$category = $catData['records'];

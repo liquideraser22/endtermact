@@ -37,7 +37,7 @@
       foreach($list as $result){
     ?>
     <tr>
-     <td> <a href="index.php?page=show_product&id=<?php echo $result['id'];?>"> <?php echo $result['name']; ?> </a> </td>
+      <td class="w3-center"> <a href="index.php?page=show_product&id=<?php echo $result['id'];?>"> <?php echo $result['name']; ?> </a> </td>
       <td class="w3-center"><?php echo $result['price']; ?> </td>
       <td class="w3-center"><?php echo $result['description']; ?> </td>
       <td class="w3-center"><?php echo $result['category_name'];?> </td>

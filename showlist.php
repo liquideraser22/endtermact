@@ -28,19 +28,19 @@
 	<hr/>
   <table class="w3-table-all w3-round w3-hoverable">
     <tr class="w3-dark-grey">
-      <th>Product Name</th>
-      <th>Price</th>
-      <th>Description</th>
-      <th>Category</th>
+      <th class="w3-center">Product Name</th>
+      <th class="w3-center">Price</th>
+      <th class="w3-center">Description</th>
+      <th class="w3-center">Category</th>
     </tr>
     <?php
       foreach($list as $result){
     ?>
     <tr>
      <td> <a href="index.php?page=show_product&id=<?php echo $result['id'];?>"> <?php echo $result['name']; ?> </a> </td>
-      <td><?php echo $result['price']; ?> </td>
-      <td><?php echo $result['description']; ?> </td>
-      <td><?php echo $result['category_name'];?> </td>
+      <td class="w3-center"><?php echo $result['price']; ?> </td>
+      <td class="w3-center"><?php echo $result['description']; ?> </td>
+      <td class="w3-center"><?php echo $result['category_name'];?> </td>
     </tr>
     <?php
       }

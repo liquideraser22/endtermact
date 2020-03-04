@@ -21,8 +21,8 @@
 </head>
 <br/>
 <div class="w3-container w3-margin w3-round w3-centered">
-	<marquee width="60%" direction="left" height="100px">
-	This is a sample scrolling text that has scrolls texts to left.
+	<marquee width="60%" direction="left" height="60px">
+	API ENDTERM ACTIVITY
 	</marquee>
 	</br></br>
 	<form action="index.php?page=list" method="POST">

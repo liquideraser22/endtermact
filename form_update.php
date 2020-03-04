@@ -11,11 +11,6 @@
 	$category = $catData['records'];
 ?>
 <html>
-<head>
-<title></title>
-</head>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:800i|Oswald|Teko:600&display=swap">
 <br/>
 <br/>
 <br/>
@@ -35,7 +30,7 @@
       }
     ?>
 	</select>
-	<br/><br/><input class="w3-button w3-center w3-round-large w3-green" type="submit" name="submit" value="Confirm"/> <input class="w3-button w3-center w3-round-large w3-red" type="submit" name="submit" value="Cancel"/>	
+	<br/><br/><input class="w3-button w3-right  w3-round-large w3-green" type="submit" name="submit" value="Confirm"/> <input class="w3-button w3-center w3-round-large w3-red" type="submit" name="submit" value="Cancel"/>	
 </form>
 </div>
 </html>

@@ -25,11 +25,7 @@
       }
     ?>
 	</select>
-	<br/><br/><input class="w3-button onclick="myFunction()" w3-right w3-round-large w3-green" type="submit" name="submit" value="Create Product"/>
-	<script>
-	function myFunction() {
- 	 alert("Product Succesfully Created!");
-	}
+	<br/><br/><input class="w3-button w3-right w3-round-large w3-green" type="submit" name="submit" value="Create Product"/>
 </script>
 </form>
 </div>

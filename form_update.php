@@ -14,7 +14,6 @@
 <br/>
 <br/>
 <br/>
-<div class="w3-container">
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST">
 	<form class="w3-container w3-green">
 	Product Name:<br/><input class="w3-input w3-border w3-round-large" type="text" name="name" value="<?php echo $result['name'];?>"/><br/><br/>

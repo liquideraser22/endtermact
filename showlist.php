@@ -24,8 +24,9 @@
 	</br></br>
 	<form action="index.php?page=list" method="POST">
 	<div class="w3-container w3-show">
-	<input class="w3-border w3-right w3-round-large" type="text"name="search" placeholder="Search product name">
 		<button class="w3-right w3-button w3-light-grey w3-round w3-animate-zoom" type="submit" name="submit"><i class='fa fa-search'></i></button>
+		<input class="w3-border w3-right w3-round-large" type="text"name="search" placeholder="Search product name">
+
 		</div>	
 	</form>
 	<hr/>

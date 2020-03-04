@@ -11,7 +11,6 @@
 <br/>
 <br/>
 <div class="w3-container">
-	<div class="w3-card-4">
 		<header class="w3-container w3-dark-grey w3-round-large">
 			<h1><b><?php echo $result['name']; ?></b></h1>
 		</header>
@@ -21,7 +20,6 @@
 		<th class="w3-center w3-animate-top"><?php echo $result['price']; ?> </th>
 		<th class="w3-center w3-animate-top"><?php echo $result['category_name'];?> </th>
 	  </tr>
-	</div>
 		<footer class="w3-container w3-dark-grey w3-padding-small w3-round-large">
 			<a class="w3-button w3-round-large w3-right w3-teal w3-margin" href="form_update.php?id=<?php echo $id ?>">Edit</a>
 			<a class="w3-button w3-round-large w3-right w3-red w3-margin" href="pro_delete.php?id=<?php echo $id ?>">Delete</a>

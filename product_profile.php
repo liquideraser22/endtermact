@@ -18,8 +18,9 @@
 	<table class="w3-table-all w3-round w3-hoverable">
 		 <tr class="w3-dark-grey">
 		<th class="w3-center w3-animate-top"><?php echo $result['description']; ?> </th>
-		<p> <b>Price:  </b><?php echo $result['price']; ?></p>
-		<p>	<b>Category:  </b><?php echo $result['category_name'];?> </p>
+		<th class="w3-center w3-animate-top"><?php echo $result['price']; ?> </th>
+		<th class="w3-center w3-animate-top"><?php echo $result['category_name'];?> </th>
+	  </tr>
 	</div>
 		<footer class="w3-container w3-dark-grey w3-padding-small w3-round-large">
 			<a class="w3-button w3-round-large w3-right w3-teal w3-margin" href="form_update.php?id=<?php echo $id ?>">Edit</a>

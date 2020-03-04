@@ -15,8 +15,9 @@
 		<header class="w3-container w3-dark-grey w3-round-large">
 			<h1><b><?php echo $result['name']; ?></b></h1>
 		</header>
-	<div class="w3-container w3-padding-large w3-round-xlarge">
-		<p>	<b>Description:  </b><?php echo $result['description']; ?> </p>
+	<table class="w3-table-all w3-round w3-hoverable">
+		 <tr class="w3-dark-grey">
+		<th class="w3-center w3-animate-top"><?php echo $result['description']; ?> </th>
 		<p> <b>Price:  </b><?php echo $result['price']; ?></p>
 		<p>	<b>Category:  </b><?php echo $result['category_name'];?> </p>
 	</div>

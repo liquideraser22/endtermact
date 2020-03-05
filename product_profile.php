@@ -28,7 +28,7 @@
 	 	</tr>
 		</br>
 		<a class="w3-button w3-round-large w3-right w3-red w3-margin" href="pro_delete.php?id=<?php echo $id ?>">Delete</a>
-		<a class="w3-button w3-round-large w3-right w3-teal w3-margin" href="form_update.php?id=<?php echo $id ?>">Edit</a>
+		<a class="w3-button w3-round-large w3-right w3-teal w3-margin" href="index.php?page=update&id=<?php echo $id ?>">Edit</a>
 		
 	</div>
   </div>

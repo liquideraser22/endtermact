@@ -22,7 +22,7 @@
 <br/>
 <div class="w3-container w3-margin w3-round w3-centered">
 	<marquee behavior="scroll" scrollamount="10" width="60%" direction="left" height="60px">
-	API ENDTERM ACTIVITY
+	WELCOME USER
 	</marquee>
 	</br></br>
 	<form action="index.php?page=list" method="POST">
